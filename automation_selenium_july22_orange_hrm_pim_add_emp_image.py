@@ -41,10 +41,10 @@ if tab_add_employee.is_displayed():
 # try:
     pim_add_img_btn = my_chromedriver.find_element(By.XPATH, "(//button)[3]")
     pim_emp_name = my_chromedriver.find_element(By.XPATH, "//input[@name='firstName']")
-    pim_emp_name.send_keys("Kate")
+    pim_emp_name.send_keys("Priyanka")
 
     pim_emp_name = my_chromedriver.find_element(By.XPATH, "//input[@name='lastName']")
-    pim_emp_name.send_keys("Hudson")
+    pim_emp_name.send_keys("C")
 
     pim_save = my_chromedriver.find_element(By.XPATH, "//button[@type='submit']")
 
